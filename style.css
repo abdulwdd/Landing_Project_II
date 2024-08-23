@@ -2,6 +2,7 @@
     justify-content: space-around;
      display: flex;
      align-items: center;
+     /* background-image: url(Res/designer_1.png); */
 }
 .head1{
     cursor: pointer;
@@ -33,4 +34,43 @@
     padding-right: 40px;
     border-radius: 5px;
     cursor: pointer;
+}
+.main{
+    padding-top: 150px;
+    padding-left: 10px;
+}
+
+#main1a{
+    color: rgb(9,17,51);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+#main1b{
+    width: 539px;
+    color: rgb(80,95,152);
+    font-family: cursive;
+    font-weight: 400;
+}
+.main4{
+    display: flex;
+    gap: 2%;
+}
+#but2{
+    background-color: rgb(17,27,71);
+    color: rgb(255,255,255);
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+}
+#but3{
+    background-color: none;
+    color:rgb(9,17,51) ;
+    border-color: rgb(9,17,51);
+    border-radius: 3px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: normal;
 }
