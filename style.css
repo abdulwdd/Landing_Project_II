@@ -1,0 +1,36 @@
+.head{
+    justify-content: space-around;
+     display: flex;
+     align-items: center;
+}
+.head1{
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 10%;
+    text-decoration: none;
+    color: rgb(80,95,152);
+}
+.head1 a{
+    text-decoration: none;
+    color: rgb(80,95,152);
+    justify-content: space-between;
+    gap: 10%;
+    margin-left: 20px;
+}
+.head1 a:hover{
+    color: darkslateblue;
+    transition: all .07s ease-in-out;
+}
+#head2a{
+    color: rgb(55,68,126);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#but1{
+    padding: 10px;
+    background-color: rgb(17,27,71);
+    color: rgb(255,255,255);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
